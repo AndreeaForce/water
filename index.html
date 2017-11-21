@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test here!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="main-container map_container">
+        <button data-page="main" class="backBtn">back</button>
+        <div class="main-map map" id="main">
+            <img id="main-img" src="img/main_map.jpg" alt="map" usemap="#map">
+            <map name="map">
+                <area data-page="administration" alt="administration" title="administration" href="#1" shape="poly" coords="574,162,764,140,741,121,740,115,743,115,743,111,668,46,521,58,525,66,527,81,508,81" />
+                <area data-page="pump" alt="pump" title="pump" href="#2" shape="poly" coords="645,304,500,329,461,252,476,249,473,230,467,216,535,206,556,237,592,232" />
+                <area data-page="basin" alt="basin" title="basin" href="#3" shape="poly" coords="575,173,766,150,811,190,805,189,801,190,797,190,792,191,788,192,784,194,780,196,779,197,773,198,774,201,761,202,761,201,745,202,740,201,733,200,728,200,722,200,717,201,711,202,704,206,701,208,699,213,699,227,624,238" />
+                <area data-page="digesters" alt="digesters" title="digesters" href="#4" shape="poly" coords="682,248,754,335,913,304,888,282,889,244,888,242,888,239,882,236,876,231,874,231,874,227,868,228,866,228,860,227,854,225,846,225,846,206,845,205,844,204,844,200,842,200,832,193,832,190,822,191,818,190,814,190,810,190,806,189,804,189,801,189,798,190,795,190,792,191,789,191,787,193,784,194,781,195,780,197,774,197,774,201,761,202,761,201,744,202,741,201,738,200,735,200,730,200,725,200,722,200,717,201,712,202,708,204,704,206,701,207,699,211,699,213,702,246" />
+                <area data-page="bioreactor" alt="bioreactor" title="bioreactor" href="#5" shape="poly" coords="960,335,1179,535,1007,587,811,365" />
+                <area data-page="fermenters" alt="fermenters" title="fermenters" href="#6" shape="poly" coords="1133,328,1259,302,1228,281,1230,261,1223,253,1223,247,1209,242,1204,248,1194,250,1195,238,1189,230,1185,229,1185,224,1179,221,1169,221,1169,225,1159,229,1160,216,1152,208,1151,203,1143,199,1135,201,1135,205,1125,207,1124,212,1122,240,1117,233,1105,230,1103,237,1097,239,1097,226,1088,217,1088,213,1078,209,1070,212,1071,217,1062,218,1058,246,1028,252" />
+                <area data-page="belt-filter" alt="belt-filter" title="belt-filter" href="#7" shape="poly" coords="1190,493,1350,449,1291,406,1291,402,1296,402,1296,395,1199,325,1089,349,1090,353,1093,357,1092,368,1053,374" />
+                <area data-page="clarifiers" alt="clarifiers" title="clarifiers" href="#8" shape="poly"  coords="1463,305,1410,276,1416,252,1409,250,1410,243,1123,91,1078,95,1078,101,1071,103,1068,129,1038,134,1351,332" />
+                <area data-page="tanks" alt="tanks" title="tanks" href="#9" shape="poly" coords="532,772,965,636,766,388,567,431,536,423,498,426,479,434,472,431,465,436,466,444,459,453,419,460" />
+                <area data-page="cyclone" alt="cyclone" title="cyclone" href="#10" shape="poly" coords="833,166,915,156,913,148,926,145,926,137,921,134,921,105,911,100,898,101,897,103,897,131,891,131,851,142,850,114,841,109,831,108,825,111,825,139,821,139,822,150,816,150" />
+            </map>
+        </div>
+        <div class="administration page hide" id="administration">
+            <img src="img/sanitary_office.png" alt="sanitary">
+        </div>
+        <div class="pump page hide" id="pump">
+            <img src="img/pump_map.jpg" alt="pump">
+        </div>
+        <div class="basin page hide" id="basin">
+            <img src="img/primary_settling_basin.png" alt="basin">
+        </div>
+        <div class="digesters page hide" id="digesters">
+            <img src="img/digesters.png" alt="digesters" >
+        </div>
+        <div class="bioreactor page hide" id="bioreactor">
+            <img src="img/bioreactors.png" alt="bioreator">
+        </div>
+        <div class="fermenters page hide" id="fermenters">
+            <img src="img/fermenters.png" alt="pump">
+        </div>
+        <div class="belt-filter page hide" id="belt-filter">
+
+            <img src="img/belt_filters.png" alt="belt-filters" >
+        </div>
+        <div class="clarifiers page hide" id="clarifiers">
+            <img src="img/secondary_clarifiers.png" alt="clarifiers" >
+        </div>
+        <div class="tanks page hide" id="tanks">
+            <img src="img/sanitary_office.png" alt="tanks">
+        </div>
+        <div class="cyclone page hide" id="cyclone">
+            <img src="img/pump_map.jpg" alt="pump">
+        </div>
+        
+</div>
+<script src="jquery.min.js"></script>  
+<script src="imagemapster.min.js"></script>   
+<script src="script.js"></script>   
+</body>
+</html>
