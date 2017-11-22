@@ -30,12 +30,24 @@ img {
     letter-spacing: 1px;
 }
 .description {
-    width: 40%;
+    width: 25%;
     margin-right: 50px;
     text-transform: uppercase;
     cursor: default;
     float: right;
     text-align: center;
+}
+@media only screen and (max-width: 800px) {
+    .description {
+        width: 25%;
+        margin-right: 10px;
+        margin-left: 0;
+        font-size: 0.8rem;
+    }
+    .backBtn {
+        margin-left: 10px;
+        font-size: 0.8rem;
+    }
 }
 .backBtn:hover {
     background-color: rgb(80, 80, 80);

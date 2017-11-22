@@ -81,5 +81,7 @@ function getPage(pageName, historyActive) {
     }
 }
     /* responsive */
-
+    $(document).ready(function() {
+        $('map').imageMapResize();
+    });
 
