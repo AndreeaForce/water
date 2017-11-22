@@ -1,2 +1,3 @@
 # water
-https://cdn.rawgit.com/AndreeaForce/water/127e721c/index.html
+
+https://rawgit.com/AndreeaForce/water/master/index.html
